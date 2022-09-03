@@ -2,16 +2,17 @@
 <html lang="en">
   <head>
     <link rel="icon" href="/favicon.ico">
+    <title>404 Not found</title>
   </head>
   <body>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {{ content }}
+        404 Not found.
       </div>
     </main>
 
     <footer>
-      <address>{{ site.email }}</address>
+      <address>{{ .Site.Params.Address }}</address>
     </footer>
   </body>
 </html>

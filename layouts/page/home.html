@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/favicon.ico">
+    <title>{{ or .Title .Site.Title }}</title>
+  </head>
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {{ .Content }}
+      </div>
+    </main>
+
+    <footer>
+      <address>{{ .Site.Params.Address }}</address>
+    </footer>
+  </body>
+</html>

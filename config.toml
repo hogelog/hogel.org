@@ -1,0 +1,6 @@
+baseURL = 'https://hogel.org/'
+languageCode = 'ja'
+title = 'hogel.org'
+
+[params]
+  address = 'konbu.komuro@gmail.com'
